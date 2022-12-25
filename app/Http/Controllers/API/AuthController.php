@@ -109,7 +109,7 @@ class AuthController extends Controller
         return ResponseFormatter::success($token, 'Token Revoked');
     }
 
-    public function fetchPasien(Request $request)
+    public function fetchKader(Request $request)
     {
         return ResponseFormatter::success($request->user(), 'Data Profile user berhasil diambil');
     }

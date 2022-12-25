@@ -21,6 +21,7 @@ class Pasiens extends Model
         'kms',
         'asuransi_kesehatan',
         'nama_bapak',
+        'nik_bapak',
         'nama_ibu',
         'nik_ibu',
         'nomor_telepon',
@@ -37,7 +38,16 @@ class Pasiens extends Model
         'IMT_U_B',
         'BB_TB',
         'TB_U',
+        'IMT_U_T_Hasil',
+        'IMT_U_B_Hasil',
+        'vitamin_a',
+        'oralit', 
+        'campak', 
+        'dpt', 
+        'polio', 
+        'bcg',
+        'hb', 
+        'tanggal_pemberian',
+        'obat_cacing'
     ];
 }
-
-

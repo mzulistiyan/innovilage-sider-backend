@@ -8,615 +8,615 @@ class Perhitungan {
     {
         if ($bulan == 0) {
             if ($request < 2.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 2.1 && $request < 2.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 2.5 && $request <= 3.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 3.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 1) {
             if ($request < 2.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 2.9 && $request < 3.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 3.4 && $request <= 5.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 5.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 2) {
             if ($request < 3.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 3.8 && $request < 4.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 4.3 && $request <= 6.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 6.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 3) {
             if ($request < 4.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 4.4 && $request < 5.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 5.0 && $request <= 7.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 7.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 4) {
             if ($request < 4.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 4.9 && $request < 5.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 5.6 && $request <= 7.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 7.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 5) {
             if ($request < 5.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 5.3 && $request < 6.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 6.0 && $request <= 8.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 8.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 6) {
             if ($request < 5.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 5.7 && $request < 6.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 6.4 && $request <= 8.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 8.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 7) {
             if ($request < 5.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 5.9 && $request < 6.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 6.7 && $request <= 9.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 9.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 8) {
             if ($request < 6.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 6.2 && $request < 6.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 6.9 && $request <= 9.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 9.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 9) {
             if ($request < 6.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 6.4 && $request < 7.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 7.1 && $request <= 9.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 9.9) {
 
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 10) {
             if ($request < 6.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 6.6 && $request < 7.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 7.4 && $request <= 10.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 10.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 11) {
             if ($request < 6.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 6.8 && $request < 7.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 7.6 && $request <= 10.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 10.5) {
 
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 12) {
             if ($request < 6.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 6.9 && $request < 7.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 7.7 && $request <= 10.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 10.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 13) {
             if ($request < 7.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.1 && $request < 7.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 7.9 && $request <= 11.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 11.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 14) {
             if ($request < 7.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.2 && $request < 8.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.1 && $request <= 11.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 11.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 15) {
             if ($request < 7.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.4 && $request < 8.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.3 && $request <= 11.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 11.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 16) {
             if ($request < 7.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.5 && $request < 8.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.4 && $request <= 11.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 11.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 17) {
             if ($request < 7.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.7 && $request < 8.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.6 && $request <= 12.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 12.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 18) {
             if ($request < 7.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 7.8 && $request < 8.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.8 && $request <= 12.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 12.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 19) {
             if ($request < 8.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.0 && $request < 8.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 8.9 && $request <= 12.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 12.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 20) {
             if ($request < 8.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.1  && $request < 9.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.1  && $request <= 12.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 12.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 21) {
             if ($request < 8.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.2 && $request < 9.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.2 && $request <= 12.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 12.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 22) {
             if ($request < 8.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.4 && $request < 9.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.4 && $request <= 13.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 13.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 23) {
             if ($request < 8.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.5 && $request < 9.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.5 && $request <= 13.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 13.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 24) {
             if ($request < 8.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.6 && $request < 9.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.7  && $request <= 13.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 13.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 25) {
             if ($request < 8.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.8 && $request < 9.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 9.8 && $request <= 13.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 13.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 26) {
             if ($request < 8.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 8.9 && $request < 10.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.0 && $request <= 14.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 14.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 27) {
             if ($request < 9.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.0 && $request < 10.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.1  && $request <= 14.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 14.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 28) {
             if ($request < 9.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.1 && $request < 10.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.2 && $request <= 14.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 14.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 29) {
             if ($request < 9.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.2 && $request < 10.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.4 && $request <= 14.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 14.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 30) {
             if ($request < 9.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.4 && $request < 10.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.5  && $request <= 15.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 15.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 31) {
             if ($request < 9.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.5 && $request < 10.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.7 && $request <= 15.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 15.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 32) {
             if ($request < 9.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.6 && $request < 10.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.8  && $request <= 15.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 15.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 33) {
             if ($request < 9.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.7 && $request < 10.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 10.9 && $request <= 15.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 15.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 34) {
             if ($request < 9.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.8 && $request < 11.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.0 && $request <= 15.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 15.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 35) {
             if ($request < 9.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 9.9 && $request < 11.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.2  && $request <= 16.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 36) {
             if ($request < 10.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.0 && $request < 11.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.3  && $request <= 16.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 37) {
             if ($request < 10.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.1 && $request < 11.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.4 && $request <= 16.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 38) {
             if ($request < 10.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.2 && $request < 11.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.5  && $request <= 16.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 39) {
             if ($request < 10.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.3 && $request < 11.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.6  && $request <= 16.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 40) {
             if ($request < 10.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.4  && $request < 11.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.8  && $request <= 17.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 17.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 41) {
             if ($request < 10.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.5 && $request < 11.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 11.9 && $request <= 17.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 17.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 42) {
             if ($request < 10.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.6 && $request < 12.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.0 && $request <= 17.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 17.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 43) {
             if ($request < 10.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.7 && $request < 12.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.1  && $request <= 17.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 17.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 44) {
             if ($request < 10.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.8 && $request < 12.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.2  && $request <= 17.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 17.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 45) {
             if ($request < 10.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 10.9 && $request < 12.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.4 && $request <= 18.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 18.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 46) {
             if ($request < 11.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.0 && $request < 12.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.5 && $request <= 18.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 18.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 47) {
             if ($request < 11.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.1  && $request < 12.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.6   && $request <= 18.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 18.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 48) {
             if ($request < 11.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.2 && $request < 12.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.7  && $request <= 18.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 18.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 49) {
             if ($request < 11.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.3 && $request < 12.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.8 && $request <= 18.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 18.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 50) {
             if ($request < 11.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.4 && $request < 12.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 12.9   && $request <= 19.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 19.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 51) {
             if ($request < 11.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.5 && $request < 13.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.1  && $request <= 19.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 19.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 52) {
             if ($request < 11.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.6 && $request < 13.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.2   && $request <= 19.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 19.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 53) {
             if ($request < 11.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.7 && $request < 13.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.3 && $request <= 19.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 19.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 54) {
             if ($request < 11.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.8 && $request < 13.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.4 && $request <= 19.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 19.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 55) {
             if ($request < 11.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 11.9  && $request < 13.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.5   && $request <= 20.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 20.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 56) {
             if ($request < 12.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 12.0 && $request < 13.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.6  && $request <= 20.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 20.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 57) {
             if ($request < 12.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 12.1  && $request < 13.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.7 && $request <= 20.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 20.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 58) {
             if ($request < 12.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 12.2 && $request < 13.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 13.8  && $request <= 16.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 16.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 59) {
             if ($request < 12.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 12.3 && $request < 14.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 14.0   && $request <= 20.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 20.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 60) {
             if ($request < 12.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($request >= 12.4  && $request < 14.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($request >= 14.1   && $request <= 21.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($request > 21.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         }
 
@@ -627,613 +627,613 @@ class Perhitungan {
     {
         if ($bulan == 0) {
             if ($value < 2.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 2.0  && $value < 2.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 2.4 && $value <= 3.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 3.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 1) {
             if ($value < 2.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 2.7 && $value < 3.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 3.2 && $value <= 4.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 4.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 2) {
             if ($value < 3.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 3.4 && $value < 3.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 3.9 && $value <= 5.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 5.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 3) {
             if ($value < 4.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 4.0 && $value < 4.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 4.5 && $value <= 6.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 6.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 4) {
             if ($value < 4.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 4.4 && $value < 5.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 5.0  && $value <= 7.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 7.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 5) {
             if ($value < 4.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 4.8 && $value < 5.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 5.4  && $value <= 7.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 7.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 6) {
             if ($value < 5.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 5.1 && $value < 5.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 5.7 && $value <= 8.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 8.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 7) {
             if ($value < 5.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 5.3 && $value < 6.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 6.0 && $value <= 8.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 8.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 8) {
             if ($value < 5.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 5.6 && $value < 6.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 6.3 && $value <= 9.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 9.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 9) {
             if ($value < 5.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 5.8 && $value < 6.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 6.5 && $value <= 9.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 9.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 10) {
             if ($value < 5.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 5.9 && $value < 6.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 6.7  && $value <= 9.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 9.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 11) {
             if ($value < 6.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.1 && $value < 6.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 6.9 && $value <= 9.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 9.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 12) {
             if ($value < 6.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.3 && $value < 7.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.0 && $value <= 10.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 10.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 13) {
             if ($value < 6.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.4 && $value < 7.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.2  && $value <= 10.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 10.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 14) {
             if ($value < 6.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.6 && $value < 7.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.4 && $value <= 10.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 10.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 15) {
             if ($value < 6.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.7 && $value < 7.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.6  && $value <= 10.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 10.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 16) {
             if ($value < 6.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 6.9 && $value < 7.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.7 && $value <= 11.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 11.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 17) {
             if ($value < 7.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.0 && $value < 7.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 7.9 && $value <= 11.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 11.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 18) {
             if ($value < 7.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.2 && $value < 8.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.1  && $value <= 11.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 11.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 19) {
             if ($value < 7.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.3 && $value < 8.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.2 && $value <= 11.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 11.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 20) {
             if ($value < 7.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.5  && $value < 8.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.4   && $value <= 12.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 12.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 21) {
             if ($value < 7.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.6 && $value < 8.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.6  && $value <= 12.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 12.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 22) {
             if ($value < 7.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.8 && $value < 8.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.7 && $value <= 12.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 12.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 23) {
             if ($value < 7.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 7.9 && $value < 8.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 8.9 && $value <= 12.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 12.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 24) {
             if ($value < 8.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.1 && $value < 9.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.0  && $value <= 13.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 13.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 25) {
             if ($value < 8.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.2 && $value < 9.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.2 && $value <= 13.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 13.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 26) {
             if ($value < 8.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.4 && $value < 9.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.4  && $value <= 13.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 13.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 27) {
             if ($value < 8.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.5 && $value < 9.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.5   && $value <= 13.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 13.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 28) {
             if ($value < 8.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.6 && $value < 9.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.7 && $value <= 14.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 14.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 29) {
             if ($value < 8.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.8 && $value < 9.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 9.8  && $value <= 14.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 14.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 30) {
             if ($value < 8.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 8.9 && $value < 10.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.0  && $value <= 14.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 14.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 31) {
             if ($value < 9.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.0 && $value < 10.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.1  && $value <= 14.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 14.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 32) {
             if ($value < 9.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.1  && $value < 10.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.3  && $value <= 14.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 14.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 33) {
             if ($value < 9.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.3 && $value < 10.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.4 && $value <= 15.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 15.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 34) {
             if ($value < 9.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.4  && $value < 10.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.5  && $value <= 15.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 15.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 35) {
             if ($value < 9.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.5 && $value < 10.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.7  && $value <= 15.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 15.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 36) {
             if ($value < 9.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.6 && $value < 10.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.8   && $value <= 15.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 15.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 37) {
             if ($value < 9.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.7 && $value < 10.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 10.9 && $value <= 16.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 16.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 38) {
             if ($value < 9.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.8 && $value < 11.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.1   && $value <= 16.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 16.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 39) {
             if ($value < 9.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 9.9 && $value < 11.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.2  && $value <= 16.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 16.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 40) {
             if ($value < 10.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.1  && $value < 11.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.3  && $value <= 16.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 16.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 41) {
             if ($value < 10.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.2 && $value < 11.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.5 && $value <= 16.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 16.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 42) {
             if ($value < 10.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.3 && $value < 11.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.6  && $value <= 17.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 17.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 43) {
             if ($value < 10.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.4 && $value < 11.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.7   && $value <= 17.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 17.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 44) {
             if ($value < 10.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.5 && $value < 11.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 11.8  && $value <= 17.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 17.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 45) {
             if ($value < 10.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.6 && $value < 12.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.0 && $value <= 17.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 17.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 46) {
             if ($value < 10.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.7 && $value < 12.1) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.1  && $value <= 18.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 18.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 47) {
             if ($value < 10.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.8  && $value < 12.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.2   && $value <= 18.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 18.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 48) {
             if ($value < 10.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 10.9 && $value < 12.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.3  && $value <= 18.5) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 18.5) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 49) {
             if ($value < 11.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.0 && $value < 12.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.4 && $value <= 18.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 18.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 50) {
             if ($value < 11.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.1 && $value < 12.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.6    && $value <= 19.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 19.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 51) {
             if ($value < 11.2) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.2 && $value < 12.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.7   && $value <= 19.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 19.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 52) {
             if ($value < 11.3) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.3 && $value < 12.8) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.8   && $value <= 19.4) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 19.4) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 53) {
             if ($value < 11.4) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.4 && $value < 12.9) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 12.9 && $value <= 19.7) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 19.7) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 54) {
             if ($value < 11.5) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.5 && $value < 13.0) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.0 && $value <= 19.9) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 19.9) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 55) {
             if ($value < 11.6) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.6  && $value < 13.2) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.2   && $value <= 20.1) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 20.1) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 56) {
             if ($value < 11.7) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.7 && $value < 13.3) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.3  && $value <= 20.3) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 20.3) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 57) {
             if ($value < 11.8) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.8  && $value < 13.4) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.4 && $value <= 20.6) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 20.6) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 58) {
             if ($value < 11.9) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 11.9 && $value < 13.5) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.5  && $value <= 20.8) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 20.8) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 59) {
             if ($value < 12.0) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 12.0 && $value < 13.6) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.6    && $value <= 21.0) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 21.0) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         } else if ($bulan == 60) {
             if ($value < 12.1) {
-                $data = "Berat Badan Sangat Kurang";
+                $data = "Sangat Kurang";
             } else if ($value >= 12.1  && $value < 13.7) {
-                $data = "Berat Badan Kurang";
+                $data = "Kurang";
             } else if ($value >= 13.7   && $value <= 21.2) {
-                $data = "Berat Badan Normal";
+                $data = "Normal";
             } else if ($value > 21.2) {
-                $data = "Berat Badan Lebih";
+                $data = "Lebih";
             }
         }
 
